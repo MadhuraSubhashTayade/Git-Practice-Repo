@@ -13,7 +13,7 @@ describe("Greet group", () => {
 
   test("Greet renders with message", () => {
     render(<Greet name="Bruce" />);
-    const ele = screen.getByText(/hello brUCe/i);
+    const ele = screen.getByText(/hello bRUCe/i);
     expect(ele).toBeInTheDocument();
   });
 });
